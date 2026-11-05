@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pastebin"
+    namespace = "com.example.pastebinshare"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.pastebin"
+        applicationId = "com.example.pastebinshare"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

@@ -1,10 +1,10 @@
-package com.example.pastebin
+package com.example.pastebinshare
 
 import android.app.Activity
 import android.os.Bundle
 
-/** Settings screen (Phase 5). */
-class MainActivity : Activity() {
+/** Launcher settings screen. */
+class SettingsActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }

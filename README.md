@@ -6,7 +6,7 @@ action to the text selection toolbar. Uploads selected text, copies the URL, opt
 Only permission: `INTERNET`.
 
 ## Plan
-1. Skeleton (done): single module, `MainActivity` (settings), `PasteActivity` (invisible).
+1. Skeleton (done): single module, `SettingsActivity` (launcher), `ShareActivity` (invisible).
 2. Selection menu action (`ACTION_PROCESS_TEXT`, translucent theme, clipboard fallback on focus, always `RESULT_CANCELED`).
 3. Upload via swappable provider interface (default dpaste.com; verify current API docs first), coroutine + timeout, toast errors.
 4. Result: copy URL, "Link copied" toast, optional `ACTION_VIEW`.

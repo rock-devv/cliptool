@@ -1,4 +1,27 @@
 <resources>
     <string name="app_name">Pastebin</string>
     <string name="menu_pastebin">Pastebin</string>
+
+    <string name="settings_intro">Select text in any app, then choose Pastebin from the selection menu. The text is uploaded to dpaste.com and the link is copied to your clipboard.</string>
+    <string name="settings_open_link">Open link after upload</string>
+    <string name="settings_open_link_hint">When off, the link is only copied to the clipboard.</string>
+    <string name="settings_expiry">Keep paste for</string>
+    <string name="settings_footer">Pastes are uploaded to dpaste.com, which keeps them for 1 to 365 days.</string>
+
+    <string name="toast_link_copied">Link copied</string>
+    <string name="toast_upload_failed">Couldn\'t create paste: %1$s</string>
+    <string name="toast_nothing_to_upload">Nothing to upload</string>
+    <string name="toast_no_browser">No browser found</string>
+
+    <string-array name="expiry_options">
+        <item>1 day</item>
+        <item>7 days</item>
+        <item>365 days (max)</item>
+    </string-array>
+
+    <integer-array name="expiry_days">
+        <item>1</item>
+        <item>7</item>
+        <item>365</item>
+    </integer-array>
 </resources>
